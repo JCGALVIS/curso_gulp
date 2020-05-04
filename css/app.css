@@ -46,7 +46,7 @@ body {
 
 .carrito-compras:hover .contenido .boton {
   background-color: #33c3f0;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   margin-top: 1rem;
   display: block;
   text-align: center;
