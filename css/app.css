@@ -274,3 +274,28 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
 }
+
+.footer {
+  border: 1px solid #d9d9d9;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.footer .contenedor-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 480px) {
+  .footer .contenedor-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}

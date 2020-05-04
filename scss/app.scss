@@ -193,3 +193,17 @@ body{
         }
     }
 }
+
+.footer{
+    border: 1px solid darken($gris, 10);
+    margin-top: 1rem;
+    padding: 1rem;
+
+    .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        @include telefono(){
+            flex-direction: row;
+        }
+    }
+}
