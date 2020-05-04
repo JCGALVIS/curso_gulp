@@ -171,9 +171,25 @@ body{
         @include desktop(){
             flex: 0 1 calc(25% - 1rem);
         };
+    }
+}
 
-        .info-curso{
-            padding: 1rem;
-        };
+.info-curso {
+    padding: 1rem;
+    h4 {
+        margin:0;
+        font-size: 1.2rem;
+    }
+    .boton {
+        @include boton($secundario);
+    }
+    .precio {
+        display: flex;
+        justify-content: space-between;
+        .oferta {
+            text-decoration: line-through;
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
     }
 }
