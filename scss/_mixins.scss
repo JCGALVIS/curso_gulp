@@ -19,6 +19,10 @@
     background-position: center center;
 }
 
+@mixin gradiente($color1, $color2) {
+    background: linear-gradient(to right, $color1 0%, $color2 100%);
+}
+
 //Medias querys
 @mixin telefono {
     @media only screen and (min-width: #{$telefono}){
